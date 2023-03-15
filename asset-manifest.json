@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/reactjs-deploy/static/css/main.7f74c6cd.css",
-    "main.js": "/reactjs-deploy/static/js/main.905a4136.js",
-    "static/js/787.1b6cd0bf.chunk.js": "/reactjs-deploy/static/js/787.1b6cd0bf.chunk.js",
-    "static/media/section1-bg.jpg": "/reactjs-deploy/static/media/section1-bg.5557870a324f658ac404.jpg",
-    "static/media/events_promotions1.png": "/reactjs-deploy/static/media/events_promotions1.a99eb304b9a2d490abb3.png",
-    "static/media/events_promotions2.png": "/reactjs-deploy/static/media/events_promotions2.abd93db0819105a3987c.png",
-    "static/media/events_promotions3.png": "/reactjs-deploy/static/media/events_promotions3.0c38cc292dc6d078e36f.png",
-    "static/media/ImgRegister.png": "/reactjs-deploy/static/media/ImgRegister.35cfbaea91a3c481d911.png",
-    "static/media/GangstarVegasJessie.png": "/reactjs-deploy/static/media/GangstarVegasJessie.8ac3ddcd2ebc1046c728.png",
-    "index.html": "/reactjs-deploy/index.html",
-    "main.7f74c6cd.css.map": "/reactjs-deploy/static/css/main.7f74c6cd.css.map",
-    "main.905a4136.js.map": "/reactjs-deploy/static/js/main.905a4136.js.map",
-    "787.1b6cd0bf.chunk.js.map": "/reactjs-deploy/static/js/787.1b6cd0bf.chunk.js.map"
+    "main.css": "/static/css/main.0017826d.css",
+    "main.js": "/static/js/main.11748def.js",
+    "static/js/787.1b6cd0bf.chunk.js": "/static/js/787.1b6cd0bf.chunk.js",
+    "static/media/section1-bg.jpg": "/static/media/section1-bg.5557870a324f658ac404.jpg",
+    "static/media/events_promotions1.png": "/static/media/events_promotions1.a99eb304b9a2d490abb3.png",
+    "static/media/events_promotions2.png": "/static/media/events_promotions2.abd93db0819105a3987c.png",
+    "static/media/events_promotions3.png": "/static/media/events_promotions3.0c38cc292dc6d078e36f.png",
+    "static/media/ImgRegister.png": "/static/media/ImgRegister.35cfbaea91a3c481d911.png",
+    "static/media/GangstarVegasJessie.png": "/static/media/GangstarVegasJessie.8ac3ddcd2ebc1046c728.png",
+    "index.html": "/index.html",
+    "main.0017826d.css.map": "/static/css/main.0017826d.css.map",
+    "main.11748def.js.map": "/static/js/main.11748def.js.map",
+    "787.1b6cd0bf.chunk.js.map": "/static/js/787.1b6cd0bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f74c6cd.css",
-    "static/js/main.905a4136.js"
+    "static/css/main.0017826d.css",
+    "static/js/main.11748def.js"
   ]
 }
