@@ -1,0 +1,8 @@
+.Container {
+  margin-top: 76px;
+}
+@media (max-width: 767px) {
+  .Container {
+    margin-top: 0;
+  }
+}

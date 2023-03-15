@@ -1,0 +1,74 @@
+.wrapperEventsPromotions {
+  padding: 78px 0;
+}
+.EventsPromotionsTitle {
+  position: relative;
+  left: 20%;
+  height: inherit;
+  width: 60%;
+  margin-bottom: 90px;
+  color: #0095f3;
+}
+.eventsPromotions__title h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.SliderItem {
+  margin: 0 6px;
+  border-radius: 4px;
+}
+.SliderItemImg {
+  position: relative;
+  cursor: pointer;
+  height: 530px;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  &:hover {
+    height: 560px;
+  }
+}
+.ItemContent {
+  position: absolute;
+  top: 0;
+  padding: 33px;
+  height: inherit;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ItemHeading {
+  .Heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h3 {
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+.ItemBtn {
+  display: block;
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #fff;
+  line-height: 60px;
+  border-radius: 6px;
+  &:hover {
+    background-color: #fff;
+    color: #000;
+  }
+}

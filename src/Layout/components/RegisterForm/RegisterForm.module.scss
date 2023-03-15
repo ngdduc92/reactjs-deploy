@@ -1,0 +1,108 @@
+@import '../../../components/GlobalStyles/base';
+
+.WrapperRegisterForm {
+  position: relative;
+  width: 100%;
+  height: 1025px;
+}
+.RegisterMain {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+}
+.RegisterImg {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.RegisterForm {
+  color: $primary-color;
+  width: 250px;
+}
+.RegisterFormMain {
+  margin-top: 27px;
+}
+.FormInput {
+  width: 100%;
+  height: 30px;
+  border: 1px solid $primary-color;
+  border-radius: 4px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  input {
+    outline: unset;
+    border: transparent;
+    background-color: transparent;
+    padding-left: 0;
+    color: $primary-color;
+    font-weight: 700;
+  }
+}
+.FormSelect {
+  width: 100%;
+  height: 30px;
+  color: $primary-color;
+  border: 1px solid $primary-color;
+  background-color: transparent;
+  outline: none;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.CheckBoxItem input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  outline: none;
+  content: none;
+
+  &:before {
+    font-family: 'FontAwesome';
+    content: '✓';
+    font-size: 11px;
+    color: transparent !important;
+    background: transparent;
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #0095f3;
+    margin-right: 7px;
+    font-weight: bold;
+  }
+  &:checked:before {
+    color: black !important;
+  }
+}
+.CheckBoxSubmit {
+  width: 100%;
+  text-align: center;
+
+  input {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    &:hover {
+      background-color: #2699fb;
+      color: $text-color;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .RegisterImg {
+    display: none;
+  }
+  .RegisterMain {
+    width: 100%;
+    justify-content: center;
+  }
+}

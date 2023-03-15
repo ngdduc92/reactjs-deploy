@@ -1,0 +1,12 @@
+@import '../../components/GlobalStyles/base';
+
+.BgPrimaryColor {
+  background-color: $primary-color;
+}
+.BgSubColor {
+  background-color: $sub-color;
+}
+.BgWhiteColor {
+  background-color: #fff;
+  height: 100px;
+}
